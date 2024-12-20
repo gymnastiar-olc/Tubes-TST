@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietary Customization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #categoryInfo {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .menu-button {
+            width: 250px;
+            padding: 15px;
+            font-size: 1.1rem;
+            background: rgb(92, 184, 92);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        .menu-button:hover {
+            background: #004d00;
+        }
+
+        #details {
+            margin-top: 30px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+        #details h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        #details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        #details li {
+            font-size: 1rem;
+            color: #34495e;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dietary Customization</h1>
+    <p id="categoryInfo">Loading your dietary plan...</p>
+    <div class="menu">
+    </div>
+    <div id="details">
+    </div>
+
+    <script src="diet.js"></script>
+</body>
+</html>
