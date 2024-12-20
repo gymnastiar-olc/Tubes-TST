@@ -1,1 +1,1 @@
-# Tubes-TST
+Grant atau _Grocery Shopping Assistant_ adalah sebuah platform yang dirancang untuk membantu pengguna dalam merencanakan dan mengelola belanja bahan makanan secara efisien dan sesuai kebutuhan. Sistem ini bertujuan untuk mempermudah proses belanja dengan memberikan rekomendasi yang relevan dan membantu pengguna menyesuaikan daftar belanja berdasarkan preferensi mereka, seperti kebutuhan anggaran, gaya hidup, dan pilihan nutrisi tertentu. 
